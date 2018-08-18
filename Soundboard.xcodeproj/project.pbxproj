@@ -12,6 +12,12 @@
 		8383330F212805560092072D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8383330D212805560092072D /* Main.storyboard */; };
 		83833311212805590092072D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83833310212805590092072D /* Assets.xcassets */; };
 		83833314212805590092072D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83833312212805590092072D /* LaunchScreen.storyboard */; };
+		838333202128087C0092072D /* obiwan_chosenone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8383331C2128087C0092072D /* obiwan_chosenone.mp3 */; };
+		838333212128087C0092072D /* emp_learntoknow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8383331D2128087C0092072D /* emp_learntoknow.mp3 */; };
+		838333222128087C0092072D /* swvader01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8383331E2128087C0092072D /* swvader01.mp3 */; };
+		838333232128087C0092072D /* yoda_twisted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8383331F2128087C0092072D /* yoda_twisted.mp3 */; };
+		8383332621280A190092072D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8383332521280A190092072D /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8383332921284B880092072D /* STARWARS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8383332821284B880092072D /* STARWARS.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		83833310212805590092072D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83833313212805590092072D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83833315212805590092072D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8383331C2128087C0092072D /* obiwan_chosenone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = obiwan_chosenone.mp3; sourceTree = "<group>"; };
+		8383331D2128087C0092072D /* emp_learntoknow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emp_learntoknow.mp3; sourceTree = "<group>"; };
+		8383331E2128087C0092072D /* swvader01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swvader01.mp3; sourceTree = "<group>"; };
+		8383331F2128087C0092072D /* yoda_twisted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yoda_twisted.mp3; sourceTree = "<group>"; };
+		8383332521280A190092072D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8383332821284B880092072D /* STARWARS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STARWARS.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8383332621280A190092072D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +67,8 @@
 		83833308212805560092072D /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				8383332721284B750092072D /* Fonts */,
+				8383331B212808530092072D /* Sounds */,
 				83833309212805560092072D /* AppDelegate.swift */,
 				8383330B212805560092072D /* ViewController.swift */,
 				8383330D212805560092072D /* Main.storyboard */,
@@ -62,6 +77,33 @@
 				83833315212805590092072D /* Info.plist */,
 			);
 			path = Soundboard;
+			sourceTree = "<group>";
+		};
+		8383331B212808530092072D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8383331D2128087C0092072D /* emp_learntoknow.mp3 */,
+				8383331C2128087C0092072D /* obiwan_chosenone.mp3 */,
+				8383331E2128087C0092072D /* swvader01.mp3 */,
+				8383331F2128087C0092072D /* yoda_twisted.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8383332421280A190092072D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8383332521280A190092072D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8383332721284B750092072D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8383332821284B880092072D /* STARWARS.TTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				83833314212805590092072D /* LaunchScreen.storyboard in Resources */,
+				838333212128087C0092072D /* emp_learntoknow.mp3 in Resources */,
 				83833311212805590092072D /* Assets.xcassets in Resources */,
 				8383330F212805560092072D /* Main.storyboard in Resources */,
+				838333222128087C0092072D /* swvader01.mp3 in Resources */,
+				838333232128087C0092072D /* yoda_twisted.mp3 in Resources */,
+				838333202128087C0092072D /* obiwan_chosenone.mp3 in Resources */,
+				8383332921284B880092072D /* STARWARS.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
